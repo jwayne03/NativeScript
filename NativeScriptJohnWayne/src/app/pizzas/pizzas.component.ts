@@ -6,5 +6,11 @@ import { Component } from "@angular/core";
     styleUrls: ["./pizzas.component.css"]
 })
 export class PizzasComponent {
-
+    message = "Hello World";
+    textButton = "Click me!";
+    classButton = "colorRed";
+    exampleClick() {
+        this.textButton = "Clicked!";
+        this.classButton = "colorBlue";
+    }
 }

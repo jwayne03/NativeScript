@@ -5,7 +5,8 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
-import {PizzasComponent} from "./pizzas/pizzas.component";
+import { PizzasComponent } from "./pizzas/pizzas.component";
+import { Practica1Component } from "./practica1/practica1.component";
 
 @NgModule({
     bootstrap: [
@@ -19,7 +20,8 @@ import {PizzasComponent} from "./pizzas/pizzas.component";
         AppComponent,
         ItemsComponent,
         ItemDetailComponent,
-        PizzasComponent
+        PizzasComponent,
+        Practica1Component
     ],
     providers: [],
     schemas: [
