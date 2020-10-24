@@ -1,15 +1,29 @@
 <ActionBar title="Exercise 1 Layouts" class="appTitle"></ActionBar>
-<!-- <StackLayout orientation="vertical" verticalAlignment="center"> -->
+
 <DockLayout stretchLastChild="false">
-    <Label text="left" dock="left" class="leftblock"></Label>
-    <Label text="top" dock="top" class="topblock"></Label>
-    <Label text="right" dock="right" class="rightblock"></Label>
-    <!-- <Label text="bottom" dock="bottom" class="rightbottomblock"></Label> -->
-    <Label text="top" dock="top" class="topblock2"></Label>
+    <Label text="left" dock="left" [class]="leftblock"></Label>
+    <Label text="top" dock="top" [class]="topblock"></Label>
+    <Label text="right" dock="right" [class]="rightblock"></Label>
+    <Label text="bottom" dock="top" [class]="bottomblock"></Label>
+
+    <!-- horizontalAlignment="center" -->
+    <StackLayout orientation="vertical">
+        <StackLayout orientation="vertical" horizontalAlignment="center" class="firstOptions">
+            <Button class="btn" text="Option 1" (tap)="optionOne()"></Button>
+            <Button class="btn" text="Option 2" (tap)="optionTwo()"></Button>
+            <Button class="btn" text="Option 3" (tap)="optionThree()"></Button>
+        </StackLayout>
+
+        <label text="top" dock="top" class="topBlock2">
+            <Image src="~/assets/logoStubar.png" stretch="fill" height="10%"></Image>
+        </label>
+
+
+        <WrapLayout orientation="horizontal" class="secondOptions">
+            <Button class="btn2" text="Option 4" (tap)="optionFour()"></Button>
+            <Button class="btn2" text="Option 5" (tap)="optionFive()"></Button>
+            <Button class="btn2" text="Option 6" (tap)="optionSix()"></Button>
+            <Label text="right" dock="right" class="bottomrightblock"></Label>
+        </WrapLayout>
+    </StackLayout>
 </DockLayout>
-<StackLayout orientation="vertical" horizontalAlignment="center">
-    <Label text="Yey" class="text"></Label>
-    <Label text="Yay" class="text"></Label>
-    <Label text="Yuy" class="text"></Label>
-</StackLayout>
-<!-- </StackLayout> -->

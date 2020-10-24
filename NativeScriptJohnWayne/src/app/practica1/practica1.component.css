@@ -1,23 +1,66 @@
 .appTitle {
-    text-align:left;
+    text-align: left;
 }
 
 .leftblock {
     background-color: red;
+    width: 10%;
 }
 
 .topblock {
     background-color: green;
+    height: 10%;
 }
 
-.topblock2{
+.bottomblock {
     background-color: orange;
+    height: 10%;
 }
 
 .rightblock {
     background-color: blue;
+    width: 10%;
 }
 
 .rightbottomblock {
-    background-color:  purple;
+    background-color: purple;
+}
+
+button {
+    width: 100%;
+}
+
+.btn2 {
+    width: 70%;
+}
+
+.topBlock2 {
+    background-color: pink;
+    height: 10%;
+}
+
+.bottomrightblock {
+    background-color: purple;
+    height: 20%;
+}
+
+.firstOptions {
+    background-color: yellow;
+}
+
+.secondOptions {
+    background-color: orange;
+    height: 100%;
+}
+
+.colorRed {
+    background-color: red;
+}
+
+.colorGreen {
+    background-color: green;
+}
+
+.colorBlue {
+    background-color: blue;
 }
