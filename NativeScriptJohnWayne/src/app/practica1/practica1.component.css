@@ -1,0 +1,23 @@
+.appTitle {
+    text-align:left;
+}
+
+.leftblock {
+    background-color: red;
+}
+
+.topblock {
+    background-color: green;
+}
+
+.topblock2{
+    background-color: orange;
+}
+
+.rightblock {
+    background-color: blue;
+}
+
+.rightbottomblock {
+    background-color:  purple;
+}
