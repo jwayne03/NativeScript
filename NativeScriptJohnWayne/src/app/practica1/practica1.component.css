@@ -52,12 +52,13 @@ button {
 
 .topBlock2 {
     background-color: pink;
-    height: 10%;
+    height: 20%;
 }
 
 .bottomrightblock {
     background-color: purple;
-    height: 20%;
+    height: 100%;
+    width: 40%;
 }
 
 .firstOptions {

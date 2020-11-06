@@ -11,6 +11,7 @@ export class Practica1Component {
     leftblock = "leftblock";
     rightblock = "rightblock";
     bottomblock = "bottomblock";
+    imageView = "~/assets/android.png";
 
     optionOne() {
         this.topblock = "topblock";
@@ -23,24 +24,16 @@ export class Practica1Component {
     optionThree() {
         this.topblock = "colorBlue";
     }
-    // make change the color in color blue
-    // optionTwo() {
-    //     this.topblock = "rightblock";
-    // }
 
-    // optionThree() {
+    optionFour() {
+        this.imageView = "~/assets/android.png";
+    }
 
-    // }
+    optionFifth() {
+        this.imageView = "~/assets/angular.png";
+    }
 
-    // optionFour() {
-
-    // }
-
-    // optionFive() {
-
-    // }
-
-    // optionSix() {
-
-    // }
+    optionSix() {
+        this.imageView = "~/assets/flutter.png"
+    }
 }

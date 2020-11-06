@@ -6,7 +6,6 @@
     <Label text="right" dock="right" [class]="rightblock"></Label>
     <Label text="bottom" dock="top" [class]="bottomblock"></Label>
 
-    <!-- horizontalAlignment="center" -->
     <StackLayout orientation="vertical">
         <StackLayout orientation="vertical" horizontalAlignment="center" class="firstOptions">
             <Button class="btn" text="Option 1" (tap)="optionOne()"></Button>
@@ -14,14 +13,17 @@
             <Button class="btn" text="Option 3" (tap)="optionThree()"></Button>
         </StackLayout>
 
-        <label text="top" dock="top" class="topBlock2">
-            <Image src="~/assets/logoStubar.png" stretch="fill" height="10%"></Image>
-        </label>
+        <StackLayout orientation="horizontal" verticalAlignment="top" horizontalAlignment="center" class="topBlock2"
+            width="100%">
+            <label text="top" dock="top"></label>
+            <Image [src]="imageView" stretch="none" width="300px" height="300px">
+            </Image>
+        </StackLayout>
 
-        <WrapLayout orientation="horizontal" class="secondOptions">
-            <Button class="btn2" text="Option 4" (tap)="optionOne()"></Button>
-            <Button class="btn2" text="Option 5" (tap)="optionOne()"></Button>
-            <Button class="btn2" text="Option 6" (tap)="optionOne()"></Button>
+        <WrapLayout orientation="vertical" alignment="right" class="secondOptions">
+            <Button class="btn2" text="Option 4" (tap)="optionFour()"></Button>
+            <Button class="btn2" text="Option 5" (tap)="optionFifth()"></Button>
+            <Button class="btn2" text="Option 6" (tap)="optionSix()"></Button>
             <Label text="right" dock="right" class="bottomrightblock"></Label>
         </WrapLayout>
     </StackLayout>
