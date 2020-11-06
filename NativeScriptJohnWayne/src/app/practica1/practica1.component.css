@@ -22,6 +22,22 @@
     width: 10%;
 }
 
+.colorRed {
+    background-color: red;
+}
+
+.colorBlue {
+    background-color: blue;
+
+}
+.colorOrange {
+    background-color: orange;
+}
+
+.height10{
+    height: 10%;
+}
+
 .rightbottomblock {
     background-color: purple;
 }
@@ -53,9 +69,6 @@ button {
     height: 100%;
 }
 
-.colorRed {
-    background-color: red;
-}
 
 .colorGreen {
     background-color: green;

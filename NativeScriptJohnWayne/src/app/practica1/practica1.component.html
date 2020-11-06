@@ -2,7 +2,7 @@
 
 <DockLayout stretchLastChild="false">
     <Label text="left" dock="left" [class]="leftblock"></Label>
-    <Label text="top" dock="top" [class]="topblock"></Label>
+    <Label text="top" dock="top" class="{{topblock}} height10"></Label>
     <Label text="right" dock="right" [class]="rightblock"></Label>
     <Label text="bottom" dock="top" [class]="bottomblock"></Label>
 
@@ -18,11 +18,10 @@
             <Image src="~/assets/logoStubar.png" stretch="fill" height="10%"></Image>
         </label>
 
-
         <WrapLayout orientation="horizontal" class="secondOptions">
-            <Button class="btn2" text="Option 4" (tap)="optionFour()"></Button>
-            <Button class="btn2" text="Option 5" (tap)="optionFive()"></Button>
-            <Button class="btn2" text="Option 6" (tap)="optionSix()"></Button>
+            <Button class="btn2" text="Option 4" (tap)="optionOne()"></Button>
+            <Button class="btn2" text="Option 5" (tap)="optionOne()"></Button>
+            <Button class="btn2" text="Option 6" (tap)="optionOne()"></Button>
             <Label text="right" dock="right" class="bottomrightblock"></Label>
         </WrapLayout>
     </StackLayout>

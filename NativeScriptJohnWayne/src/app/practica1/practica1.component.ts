@@ -15,24 +15,32 @@ export class Practica1Component {
     optionOne() {
         this.topblock = "topblock";
     }
-    // make change the color in color blue
+
     optionTwo() {
-        this.topblock = "rightblock";
+        this.topblock = "colorRed";
     }
 
     optionThree() {
-
+        this.topblock = "colorBlue";
     }
+    // make change the color in color blue
+    // optionTwo() {
+    //     this.topblock = "rightblock";
+    // }
 
-    optionFour() {
+    // optionThree() {
 
-    }
+    // }
 
-    optionFive() {
+    // optionFour() {
 
-    }
+    // }
 
-    optionSix() {
+    // optionFive() {
 
-    }
+    // }
+
+    // optionSix() {
+
+    // }
 }
